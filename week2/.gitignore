@@ -1,0 +1,32 @@
+#----------Ignoring local Terraform directories and file-----------
+# Local .terraform directories
+**/.terraform/*
+
+# Ignore variables files
+*.auto.tfvars
+
+# Ignore override files
+*.tfoverride
+
+# Ignore environment-specific files
+.envrc
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+#----------Ignore Terraform state files----------
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+#----------Ignore log files-----------
+# Crash log files
+crash.log
+crash.*.log
+
+#----------Ignore Sensitive data---------
+# Ignore sensitive files
+*.pem
+*.key
+*.pub
